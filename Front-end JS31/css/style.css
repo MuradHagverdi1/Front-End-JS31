@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    height: 25rem;
+    background-color: #fff;
+    display: grid;
+    place-items: center;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 60PX;
+  }

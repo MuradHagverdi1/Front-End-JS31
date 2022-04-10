@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    Meblegi daxil edin: <input id="mebleg">
+
+    Odenilecek aylarin sayin secin
+
+    <select id="ay">
+        <option value="12" selected>1il</option>
+        <option value="24">2il</option>
+        <option value="36">3il</option>
+        <option value="48">4il</option>
+        <option value="60">5il</option>
+    </select>
+    faiz derecesi:  <input id="faiz" type="text">
+    <button onclick="Check()">Daxil et</button>
+
+
+    
+    <script src="JS/main.js"></script>
+
+    <h1>Ayliq odenis:</h1> <span id="ayliq_odenis">0</span>
+
+    <h1>Umumi faiz meblegi:</h1> <span id="faizli_mebleg">0</span>
+</body>
+</html>
